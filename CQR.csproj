@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <!-- NuGet Metadata -->
+        <PackageId>CQR</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Sandun Pushpika</Authors>
+        <Product>CQR</Product>
+        <Description>A simple and lightweight CQRS library for .NET as an alternative to MediatR.</Description>
+        <PackageTags>CQRS;MediatR;Command;Query;DotNet;Library</PackageTags>
+        <RepositoryUrl>https://github.com/SandunPushpika/CQR.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/SandunPushpika/CQR.git</PackageProjectUrl>
+        <PackageReleaseNotes>Initial release of the CQR library.</PackageReleaseNotes>
+
+        <!-- Include XML docs for IntelliSense -->
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+
+        <!-- Include symbols for debugging if needed -->
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+      <PackageReference Include="System.Linq" Version="4.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+    
+</Project>

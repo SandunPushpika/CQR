@@ -1,0 +1,81 @@
+## Build Results
+bin/
+obj/
+out/
+
+## Rider IDE
+.idea/
+*.sln.iml
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Others
+*.dbmdl
+*.log
+*.vspscc
+*.vssscc
+*.pdb
+
+## DotCover
+*.dotCover
+
+## Rider system files
+.idea/
+*.iws
+*.ipr
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/shelf/
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/dataSources.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/httpRequests/
+
+## Rider caches (optional — useful to ignore if you want a very clean repo)
+.idea/.idea.IC/
+.idea/.idea.Rider*
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## Dotnet CLI
+project.assets.json
+project.lock.json
+artifacts/
+
+## Logs
+*.log
+
+## Temporary files
+~$*
+*.tmp
+
+## VS Code (if used alongside Rider)
+.vscode/
+
+## Resharper (if used)
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Global JetBrains folder (if enabled)
+.jb/
+
+## Local environment settings
+*.env
