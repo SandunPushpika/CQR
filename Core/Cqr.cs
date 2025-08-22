@@ -2,7 +2,7 @@ using CQR.Abstractions;
 
 namespace CQR.Core;
 
-internal class Cqr : ICqr
+public class Cqr : ICqr
 {
     private RequestHandlerWrapper _requestHandler;
 

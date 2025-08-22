@@ -16,7 +16,7 @@ namespace CQR.Core;
 /// Used internally by the mediator pipeline to decouple request dispatching
 /// from concrete handler implementations.
 /// </summary>
-internal class RequestHandlerWrapper
+public class RequestHandlerWrapper
 {
     private readonly IServiceProvider _serviceProvider;
     private readonly CqrConfiguration _configuration;

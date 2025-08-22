@@ -79,3 +79,5 @@ _ReSharper*/
 
 ## Local environment settings
 *.env
+
+.DS_Store

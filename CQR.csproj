@@ -17,6 +17,7 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageProjectUrl>https://github.com/SandunPushpika/CQR.git</PackageProjectUrl>
         <PackageReleaseNotes>Initial release of the CQR library.</PackageReleaseNotes>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
 
         <!-- Include XML docs for IntelliSense -->
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -33,7 +34,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <None Include="README.md" Pack="true" PackagePath="" />
+        <None Include="README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
     
 </Project>
