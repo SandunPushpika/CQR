@@ -22,13 +22,13 @@ It focuses exclusively on handling **commands and queries** with asynchronous su
 You can install CQR via NuGet:
 
 ```bash
-dotnet add package CQR --version 1.0.0
+dotnet add package CQR --version 1.0.1
 ```
 
 Or using the NuGet Package Manager:
 
 ```bash
-Install-Package CQR -Version 1.0.0
+Install-Package CQR -Version 1.0.1
 ```
 
 ## Getting Started (Example)
@@ -166,6 +166,9 @@ public class TaskController: ControllerBase
 ```
 
 ✅ With this step, your CQRS-based API is now fully functional — cleanly separated into commands, queries, handlers, and endpoints.
+
+### Project Link
+You can find the example project [here](https://github.com/SandunPushpika/CQR-Example).
 
 ## Questions or Feedback?
 

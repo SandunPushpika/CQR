@@ -7,7 +7,7 @@
 
         <!-- NuGet Metadata -->
         <PackageId>CQR</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.2</Version>
         <Authors>Sandun Pushpika</Authors>
         <Product>CQR</Product>
         <Description>A simple and lightweight CQRS library for .NET as an alternative to MediatR.</Description>
